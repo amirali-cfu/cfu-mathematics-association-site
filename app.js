@@ -115,7 +115,7 @@ function about() {
 function members() {
   const hues = [220, 260, 160, 30, 340, 190, 280];
   app.innerHTML = `<h1 class="pt"><i class="fa-solid fa-users"></i>اعضای انجمن</h1><p class="sub">اعضای انجمن علمی ریاضی</p>
-    <div class="mem">${MEMBERS.map((n, i) => `<div class="m"><div class="av" style="background:linear-gradient(135deg,hsl(${hues[i % 7]} 70% 45%),hsl(${(hues[i % 7] + 50) % 360} 70% 55%))">${n[0]}</div><b>${n}</b><span><i class="fa-solid fa-infinity"></i> عضو انجمن ریاضی</span></div>`).join("")}</div>`;
+    <div class="mem">${MEMBERS.map((n, i) => `<div class="m"><div class="av" style="background:linear-gradient(135deg,hsl(${hues[i % 7]} 70% 45%),hsl(${(hues[i % 7] + 50) % 360} 70% 55%))">${MEMBER_PHOTOS[n] ? `<img src="${MEMBER_PHOTOS[n]}" alt="${n}" loading="lazy">` : n[0]}</div><b>${n}</b><span><i class="fa-solid fa-infinity"></i> عضو انجمن ریاضی</span></div>`).join("")}</div>`;
 }
 
 function route() {

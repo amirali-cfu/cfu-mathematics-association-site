@@ -34,6 +34,16 @@ const MEMBERS = [
   "سید محمدمتین یعقوبلو"
 ];
 
+const MEMBER_PHOTOS = {
+  "امیررضا صادقی پریخانی": "img/members/sadeghi.jpg",
+  "مبین میرزائی‌نیا": "img/members/mobin.jpg",
+  "سید محمدمتین یعقوبلو": "img/members/matin.jpg",
+  "محمد امین قجاوند": "img/members/amin.jpg",
+  "حامد اصغرزاده": "img/members/hamed.jpg",
+  "صالح شریفیان": "img/members/saleh.jpg",
+  "امیرعلی ارژنگی": "img/members/amirali.jpg"
+};
+
 const ABOUT = `
 # جایی برای پرسیدن، اندیشیدن و کشف بی‌نهایت‌ها! ∞
 
